@@ -2,7 +2,7 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-## Key summary notes:
+## Key summary notes: :key:
 
 ```bash
 yarn add --dev @testing-library/jest-dom
