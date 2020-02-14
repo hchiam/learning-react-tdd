@@ -2,7 +2,23 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Tutorial I'm following: <https://www.freecodecamp.org/news/quick-guide-to-tdd-in-react-81888be67c64/>
+Tutorial I'm following: <https://www.freecodecamp.org/news/quick-guide-to-tdd-in-react-81888be67c64/> (NOTE: old dependencies being used in this old tutorial.)
+
+## Run tests
+
+```bash
+yarn # just once
+yarn test # -> will automatically re-run when you hit save
+```
+
+## Run demo
+
+```bash
+yarn # if you haven't already
+yarn start # -> http://localhost:3000
+```
+
+---
 
 [![generator-hchiam-learning](https://img.shields.io/badge/built%20with-generator--hchiam--learning-brightgreen.svg)](https://github.com/hchiam/generator-hchiam-learning) [![Build Status](https://travis-ci.org/hchiam/learning-react-tdd.svg?branch=master)](https://travis-ci.org/hchiam/learning-react-tdd) [![Coverage Status](https://coveralls.io/repos/github/hchiam/learning-react-tdd/badge.svg?branch=master)](https://coveralls.io/github/hchiam/learning-react-tdd?branch=master)
 

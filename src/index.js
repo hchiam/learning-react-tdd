@@ -1,16 +1,21 @@
-import React from "react";
-import { render } from "react-dom";
-import JokeGenerator from "./jokeGenerator";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import JokeGenerator from './jokeGenerator';
 
 const styles = {
-  fontFamily: "sans-serif",
-  textAlign: "center"
+  fontFamily: 'sans-serif',
+  textAlign: 'center',
 };
 
-const App = () => (
-  <div style={styles}>
-    <JokeGenerator />
-  </div>
-);
+const App = () => {
+  return(
+    <div style={styles}>
+      <JokeGenerator/>
+    </div>
+  );
+};
 
-render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <App/>,
+  document.getElementById('root'),
+);
