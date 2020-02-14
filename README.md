@@ -2,7 +2,25 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Tutorial I'm following: <https://www.freecodecamp.org/news/quick-guide-to-tdd-in-react-81888be67c64/> (NOTE: old dependencies being used in this old tutorial.)
+Tutorials I'm following:
+
+## Newer: `@testing-library/react` built into `create-react-app`
+
+(See `newer-tdd` folder for more info.)
+
+```json
+{
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+  }
+}
+```
+
+## Older: `react-testing-library`
+
+<https://www.freecodecamp.org/news/quick-guide-to-tdd-in-react-81888be67c64/> (NOTE: old dependencies being used in this old tutorial.)
 
 ```json
 {
