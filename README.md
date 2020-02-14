@@ -2,11 +2,31 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
-Tutorials I'm following:
+## Key summary notes:
+
+```bash
+yarn add --dev @testing-library/jest-dom
+yarn add --dev @testing-library/react
+yarn add --dev @testing-library/user-event
+```
+
+```js
+import '@testing-library/jest-dom/extend-expect'
+import React from 'react'
+import {render, fireEvent, screen} from '@testing-library/react'
+<!-- or -->
+import { render } from '@testing-library/react';
+render(...)
+expect(screen.queryByText(...))...
+fireEvent.click(...)
+expect(screen.getByText(...))...
+```
+
+## Tutorials I'm following:
 
 ## Newer: `@testing-library/react` built into `create-react-app`
 
-(See `newer-tdd` folder for more info.)
+<https://github.com/testing-library/react-testing-library> (See `newer-tdd` sub-folder for more info.)
 
 ```json
 {
