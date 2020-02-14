@@ -4,6 +4,26 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Tutorial I'm following: <https://www.freecodecamp.org/news/quick-guide-to-tdd-in-react-81888be67c64/> (NOTE: old dependencies being used in this old tutorial.)
 
+```json
+{
+  "dependencies": {
+    "axios": "0.18.0",
+    "axios-mock-adapter": "1.14.1",
+    "react": "16.3.0",
+    "react-dom": "16.3.0",
+    "react-scripts": "1.1.0",
+    "react-testing-library": "2.0.0"
+  },
+}
+```
+
+- `axios` -> https
+- `axios-mock-adapter` -> mock https GET response
+- `react`, `react-dom` -> JSX syntax in .js file
+- `react-scripts` -> convenient CLI commands
+- `react-testing-library` -> testing (see .test.js file in tests folder) -> `render(...)`, `Simulate.click(...)`, `await wait(...)`:
+  - in turn, `render(...)` gives you: `getByText`, `queryByText`, `getByTestId`, `queryByTestId`, `container`, etc.
+
 ## Run tests
 
 ```bash
