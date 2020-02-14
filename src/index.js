@@ -1,33 +1,16 @@
-/* eslint-disable require-jsdoc */
+import React from "react";
+import { render } from "react-dom";
+import JokeGenerator from "./jokeGenerator";
 
-const solution = (a, b) => {
-  return a + b;
+const styles = {
+  fontFamily: "sans-serif",
+  textAlign: "center"
 };
 
-function solutionWrapper(...parameters) {
-  return solution(...parameters);
-}
+const App = () => (
+  <div style={styles}>
+    <JokeGenerator />
+  </div>
+);
 
-// function ListNode(val) {
-//   this.val = val;
-//   this.next = null;
-// }
-
-// function TreeNode(val) {
-//   this.val = val;
-//   this.left = this.right = null;
-// }
-
-if (typeof module !== 'undefined') {
-  module.exports = {
-    solutionWrapper,
-  };
-}
-
-alert('Hi! :)');
-
-/**
- * This file was first created using the Yeoman generator
- * generator-hchiam-learning:
- * https://www.npmjs.com/package/generator-hchiam-learning
- */
+render(<App />, document.getElementById("root"));
