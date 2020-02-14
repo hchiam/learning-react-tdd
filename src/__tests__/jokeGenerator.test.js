@@ -9,6 +9,8 @@ import 'dom-testing-library/extend-expect';
 import * as axios from 'axios';
 import MockAxios from 'axios-mock-adapter';
 
+// NOTE: comment out all lines that use mock and MockAxios to turn this test into an e2e test!
+
 // create mock with random response delay:
 const mock = new MockAxios(axios, {
   delayResponse: Math.random() * 500,
